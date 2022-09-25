@@ -43,6 +43,7 @@ metadata:
   name: minimal-ingress
 spec:
   ingressClassName: nginx
+  serviceAccountName: ingress-nginx
   rules:
   - http:
       paths:
